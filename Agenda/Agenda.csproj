@@ -66,6 +66,9 @@
     <Compile Include="View\frmCadastrarCliente.xaml.cs">
       <DependentUpon>frmCadastrarCliente.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\frmCadastrarContato.xaml.cs">
+      <DependentUpon>frmCadastrarContato.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -85,6 +88,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\frmCadastrarCliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\frmCadastrarContato.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
